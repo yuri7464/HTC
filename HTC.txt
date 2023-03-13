@@ -1,0 +1,201 @@
+programa 
+{
+  funcao inicio() 
+ {
+    inteiro num1 , num2 , resultado
+  escreva("informe um valor: ")
+  leia (num1)
+  escreva("informe um valor")
+  leia(num2)
+  resultado =num1+num2
+  escreva("O valor da adiç é"+resultado)
+   
+ }
+}
+
+
+
+atividade 2 de celsius para Fahre
+programa 
+{
+  funcao inicio() 
+ {real
+    num1 , num2 , resultado
+  escreva("informe temperatura celsius TC/5: ")
+  leia (num1)
+  escreva("informe temperatura fahrenheit (TF – 32)/9: ")
+  leia(num2)
+  escreva("conversão")
+  resultado =num1+num2
+  escreva("O valor da temp é"+resultado)
+
+
+Atividade 3 
+programa
+{
+	
+	funcao inicio()
+
+	{
+real soma, sub, mult, div, num1, num2
+escreva ("digite o primeiro numero")
+leia (num1)
+escreva("digite o segundo numero")
+leia (num2)
+
+soma= num1+num2
+sub=num1-num2
+mult=num1*num2
+div=num1/num2
+
+	escreva("\nA soma dos numeros",soma)
+	escreva("\nA sub dos números",sub)
+	escreva("\nA mult dos números",mult)
+	escreva("\ nA div dos números",div)
+
+
+
+atividade 4 
+
+programa
+{
+	
+	funcao inicio()
+{cadeia nome
+	real salario=1200, vendas, soma, result
+	escreva("informe o nome do vendedor:")
+	leia(nome)
+	escreva("informe vendas:")
+	leia(vendas)
+	soma=vendas*0.15
+	result=soma+salario
+	limpa()
+
+	escreva("\nO nome do vendedor é:  ", nome)
+	escreva("\n o valor das vendas é:  ", vendas)
+	escreva("\n O salário total é:  ", salario+vendas)
+
+	}
+}
+
+
+
+atividade 5
+
+programa
+{
+	
+	funcao inicio()
+	{
+real reais, dolar, conversao
+      escreva("informe o valor do real:")
+      leia(reais)
+      escreva("informe o valor do dolar:")
+      leia(dolar)
+      conversao=dolar-reais
+	
+		escreva("\nO valor do dolar é:",dolar-reais)
+		escreva("\nO valor da conversao é:")
+	}
+}
+
+
+
+programa
+{
+   
+    funcao inicio()
+    {
+    inteiro opcao
+    real resultado,num1,num2,gramas,valor=19.99, valor2=79.90,soma,pagamento,soma2
+        escreva("RESTAURANTE DO BEIÇOLA\n")
+        escreva("1) KG LIVRE R$ 19,90 \n")
+        escreva("2) KG PESADO R$ 79,90\n")
+ 
+
+        escreva("Informe a opção que Deseja ")
+        leia (opcao)
+
+        limpa()
+
+
+        escolha (opcao)
+        {
+            caso 1:
+            escreva("Informe quantos gramas deseja:")
+            leia (gramas)
+            soma=gramas*valor
+            escreva("Valor total é:" , soma,"\n")
+            escreva("Informe o pagamento: ")
+            leia (pagamento)
+            soma2=pagamento-soma
+            escreva("O seu troco é: ", soma2)
+            pare
+            caso 2:
+            escreva("Informe quantos gramas deseja:")
+            leia (gramas)
+            soma=gramas*valor2
+            escreva("Valor total é:" , soma,"\n")
+            escreva("Informe o pagamento: ")
+            leia (pagamento)
+            soma2=pagamento-soma
+            escreva("O seu troco é: ", soma2)
+            pare
+           
+            caso contrario:
+            escreva("Opção Invalida!")
+        }
+
+        escreva("\n")
+
+    }
+}
+
+
+
+programa
+{
+   
+    funcao inicio()
+    {
+    inteiro opcao
+    real valor=1.000, soma,saque, deposito
+        escreva("BANCO\n")
+        escreva("1) SAQUE \n")
+        escreva("2) DEPOSITO \n")
+ 
+
+        escreva("Informe a opção que Deseja ")
+        leia (opcao)
+
+        limpa()
+    
+
+        escolha (opcao)
+        {
+            caso 1:
+            escreva("Informe o valor do saque :")
+            leia (saque)
+            soma=valor-saque
+            escreva("Valor total é:" , soma,"\n")
+           
+            pare
+            caso 2:
+            escreva("Informe o valor do  deposito:")
+            leia (deposito)
+            soma=valor+deposito
+            escreva("Valor total é:" , soma,"\n")
+        
+            pare
+           
+            caso contrario:
+            escreva("Opção Invalida!")
+        }
+
+        escreva("\n")
+
+    }
+}
+
+
+
